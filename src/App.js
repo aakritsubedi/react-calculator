@@ -1,10 +1,11 @@
 import React from 'react';
+import Hello from './components/hello';
 
 
 function App() {
     return ( 
         <div className = "App" >
-            <h1>Hello Aakrit Subedi</h1>
+           <Hello fname='Aakrit' lName='Subedi' />
         </div>
     );
 }
