@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
 const root = document.getElementById('root');
-const element = < h1 > Hello Aakrit Subedi < /h1>
 
-ReactDOM.render(
-    element, root
-);
+ReactDOM.render( < App / > , root);
+
+serviceWorker.unregister();
