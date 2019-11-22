@@ -1,0 +1,55 @@
+.app{
+  width: 60%;
+  margin:5% auto;
+  border:2px solid #000000;
+  padding:5px;
+  border-radius:10px;
+  text-align: center;
+  background-color: #4C4B4B;
+}
+.display-box{
+  height: 75px;
+  width: 98%;
+  margin: 10px auto;
+  border:1px solid #f4f4f4;
+  text-align: right;
+  background-color: #2C3335;
+  opacity: 0.8;
+  color:#ffffff;
+  border-radius: 5px;
+  margin-bottom:5px;
+}
+.display-font{
+  font-size: 36px;
+  line-height: 75px;
+  padding-right:5px;
+}
+.btn{
+  width: 90px;
+  margin:5px 6px;
+  border:none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 50px;
+  background-color: #2C3335;
+  border-radius: 10px;
+  display: inline-block;
+  -webkit-box-shadow: 2px 2px 1px 0px rgba(245, 241, 241, 0.75);
+  -moz-box-shadow: 2px 2px 1px 0px rgba(245, 241, 241, 0.75);
+  box-shadow: 2px 2px 1px 0px rgba(245, 241, 241, 0.75);
+}
+.btn:hover{
+  background-color: #f4f4f4;
+  color: #000000;
+}
+.clear-btn{
+  background-color: #E84342;
+  width: 75%;
+  margin:10px auto 10px;
+}
+.equal-btn{
+  background-color: #2475B0;
+  width: 75%;
+  margin:10px auto;
+}
